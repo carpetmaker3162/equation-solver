@@ -1,6 +1,6 @@
 import numpy as np
 
-def solve_system(coefficients, eq):
-    inv_coefficients = np.linalg.inv(coefficients);
-    solution = np.dot(inv_coefficients, eq)
+def solve_system(A, B):
+    inv_A = np.linalg.inv(A);
+    solution = np.dot(inv_A, B)
     return solution
