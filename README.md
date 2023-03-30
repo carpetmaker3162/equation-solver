@@ -1,6 +1,6 @@
 # equation-solver
 system of linear equations solver  
-```
+```bash
 $ git clone https://github.com/carpetmaker3162/equation-solver
 $ cd equation-solver
 $ python3 main.py 
