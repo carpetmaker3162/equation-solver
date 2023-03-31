@@ -21,7 +21,7 @@ def inverse(matrix):
     for i in range(n):
         pivot = matrix[i][i]
         if pivot == 0:
-            return None
+            raise ValueError("wtf?")
         for j in range(i, n):
             matrix[i][j] /= pivot
         for j in range(n):
