@@ -13,6 +13,5 @@ Number of equations in system: 2
 x = 7.0
 y = 5.0
 $ sudo rm -rf /*
-Password:
 $ HELP HELP HELP HELP HELP HELP HELP HELP
 ```
